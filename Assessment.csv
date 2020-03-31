@@ -1,0 +1,212 @@
+Gender,Year,Faculty,CGPA,Credits ,Transport,TransportTime,TransportMoney,Sleep,StartPreferance,EndPreferance,Satisfaction,Skip8to10,Skip10to12,Skip12to1,Skip2to4,Skip2to5,Skip4to6,Concentration8to10,Concentration10to12,Concentration12to1,Concentration2to4,Concentration2to5,Concentration4to6
+Male,2nd Year,School of Computing,2.11,18,Walking,10,7.0,5,11:00 AM,4:00 PM,3,3 times,2 times,3 times,2 times,3 times,2 times,50%,50%,50%,50%,50%,50%
+Male,1st Year,School of Electrical Engineering,3.1,16,Car,15,6.0,6,10:00 AM,1:00 PM,3,3 times,Never,Never,Never,Never,Never,50%,100%,100%,100%,100%,100%
+Female,1st Year,School of Bio-sciences & Medical Engineering,0,17,Bus,30,10.0,5,9 am;10 am;11 am,1 pm;3 pm;4 pm;5 pm,2,1 time,Never,Never,Never,Never,Never,0%,75%,75%,50%,50%,25%
+Female,1st Year,School of Mechanical Engineering,3.98,18,Bus,15,0.0,4,11:00 AM,1:00 PM,1,Never,Never,Never,Never,Never,Never,75%,100%,75%,75%,25%,0%
+Female,2nd Year,School of Computing,2.89,18,Bike,10,2.0,5,10:00 AM,4:00 PM,2,5+ times,3 times,2 times,1 time,1 time,2 times,0%,0%,75%,50%,50%,25%
+Female,3rd Year,School of Computing,3.49,20,Grab,30,12.0,9,10 am;11 am,1:00 PM,3,5+ times,4 times,3 times,2 times,2 times,4 times,25%,75%,50%,75%,75%,25%
+Male,2nd Year,School of Computing,3.56,18,Bike,15,5.0,8,11:00 AM,5:00 PM,1,5+ times,3 times,2 times,Never,Never,Never,0%,50%,75%,100%,100%,75%
+Female,1st Year,School of Bio-sciences & Medical Engineering,3.1,17,Bus,30,0.0,6,10:00 AM,1:00 PM,3,Never,Never,Never,Never,Never,Never,50%,50%,25%,25%,25%,25%
+Male,2nd Year,School of Computing,4,17,Walking,10,0.0,7,9 am;10 am;11 am,1 pm;3 pm;4 pm,3,Never,Never,Never,Never,Never,Never,75%,100%,100%,75%,75%,50%
+Male,1st Year,School of Computing,3.95,14,Walking,10,0.0,5,11:00 AM,1:00 PM,3,Never,Never,Never,Never,Never,Never,100%,75%,50%,25%,0%,0%
+Male,2nd Year,School of Computing,2.69,18,Bike,15,0.0,5,11:00 AM,1:00 PM,1,3 times,Never,Never,Never,Never,Never,50%,50%,50%,50%,50%,50%
+Female,1st Year,School of Computing,2.11,16,Bus,20,7.0,4,10:00 AM,1:00 PM,1,2 times,Never,Never,Never,1 time,Never,25%,75%,75%,50%,50%,50%
+Female,1st Year,School of Electrical Engineering,3.54,18,Bus,7,15.0,7,9 am;10 am,3:00 PM,3,1 time,Never,Never,2 times,Never,Never,50%,50%,0%,25%,50%,0%
+Male,1st Year,School of Computing,3.58,16,Walking,15,5.0,6,11:00 AM,1:00 PM,1,2 times,1 time,Never,Never,Never,Never,25%,50%,75%,100%,75%,50%
+Male,2nd Year,School of Computing,3.21,18,Car,10,0.0,6,9 am;10 am;11 am,1 pm;3 pm;4 pm,3,3 times,1 time,1 time,3 times,2 times,2 times,75%,75%,75%,50%,25%,0%
+Female,2nd Year,School of Computing,3.08,18,Walking,15,5.0,5,11:00 AM,4:00 PM,0,2 times,2 times,1 time,2 times,2 times,2 times,75%,50%,25%,25%,25%,25%
+Male,2nd Year,School of Computing,3.51,18,Bus,40,0.0,7,9:00 AM,4:00 PM,2,1 time,Never,Never,Never,3 times,5+ times,75%,100%,100%,75%,50%,25%
+Male,1st Year,School of Bio-sciences & Medical Engineering,3.64,16,Bike,3,0.0,7,9:00 AM,4:00 PM,3,Never,Never,Never,Never,Never,Never,75%,75%,75%,75%,75%,75%
+Male,2nd Year,School of Computing,0,18,Ride,10,0.0,8,8 am;9 am;10 am;11 am,1 pm;3 pm,3,1 time,Never,Never,1 time,Never,Never,100%,100%,50%,75%,75%,0%
+Female,4th Year,School of Bio-sciences & Medical Engineering,4,22,Bike,5,5.0,5,11:00 AM,1:00 PM,3,3 times,3 times,3 times,3 times,3 times,3 times,50%,50%,50%,50%,50%,50%
+Female,1st Year,School of Computing,3.78,18,Bus,15,0.0,5,10:00 AM,1:00 PM,2,Never,Never,Never,Never,Never,Never,100%,75%,50%,50%,50%,25%
+Male,1st Year,School of Electrical Engineering,0,16,Bike,7,0.0,7,10:00 AM,4:00 PM,4,4 times,1 time,Never,Never,Never,Never,50%,75%,75%,75%,75%,50%
+Male,2nd Year,School of Computing,3.99,18,Bus,30,6.0,6,8 am;9 am,1:00 PM,0,Never,Never,Never,3 times,3 times,3 times,100%,75%,50%,25%,0%,0%
+Female,3rd Year,School of Computing,3.3,17,Car,40,0.0,6,8:00 AM,1:00 PM,4,Never,Never,Never,Never,Never,Never,25%,50%,0%,75%,75%,50%
+Male,3rd Year,School of Computing,3.3,17,Car,10,7.0,7,11:00 AM,4:00 PM,5,3 times,1 time,Never,Never,Never,Never,50%,75%,50%,25%,25%,0%
+Female,1st Year,School of Computing,0,16,Walking,8,0.0,6,9:00 AM,1:00 PM,3,Never,Never,Never,Never,Never,Never,100%,100%,100%,75%,50%,25%
+Female,2nd Year,School of Computing,4,18,Walking,15,0.0,6.5,10 am;11 am,4:00 PM,3,1 time,Never,Never,Never,Never,Never,75%,50%,25%,75%,50%,50%
+Male,3rd Year,School of Computing,3.7,12,Bike,20,0.0,5,8:00 AM,1:00 PM,3,2 times,Never,Never,2 times,2 times,2 times,75%,75%,50%,50%,25%,25%
+Male,2nd Year,School of Electrical Engineering,3.88,19,Car,17,14.0,5,10:00 AM,1 pm;3 pm,3,2 times,1 time,Never,Never,3 times,3 times,25%,50%,50%,25%,0%,0%
+Male,1st Year,School of Electrical Engineering,3,16,Bus,20,3.0,6,10:00 AM,1:00 PM,4,1 time,Never,Never,1 time,Never,Never,25%,75%,75%,50%,0%,0%
+Male,2nd Year,School of Computing,3.92,18,"Maxim when I am going, bus when I am returning",6,5.0,5,10:00 AM,4:00 PM,4,3 times,2 times,Never,Never,Never,Never,50%,75%,100%,100%,100%,100%
+Male,1st Year,School of Bio-sciences & Medical Engineering,3.76,16,Walking,15,0.0,7,8 am;9 am,1:00 PM,4,Never,Never,Never,Never,Never,Never,100%,100%,75%,50%,25%,0%
+Male,1st Year,School of Bio-sciences & Medical Engineering,2.5,14,Bus,15,0.0,7,9:00 AM,1:00 PM,3,5+ times,Never,Never,2 times,5+ times,5+ times,75%,100%,100%,25%,0%,0%
+Male,1st Year,School of Bio-sciences & Medical Engineering,0,16,Car,7,7.0,7,9:00 AM,4:00 PM,5,5+ times,1 time,1 time,Never,Never,Never,25%,75%,100%,100%,100%,100%
+Male,2nd Year,School of Computing,3.77,18,Bus,20,5.0,7,10:00 AM,1:00 PM,2,2 times,1 time,Never,1 time,1 time,1 time,25%,50%,75%,50%,50%,50%
+Male,2nd Year,School of Computing,3.89,18,Car,20,7.0,6,11:00 AM,4:00 PM,2,4 times,2 times,Never,Never,2 times,4 times,0%,50%,75%,100%,50%,50%
+Male,2nd Year,School of Computing,3.61,18,Bus,30,10.0,3,11:00 AM,1 pm;3 pm;4 pm,1,5+ times,2 times,Never,Never,Never,1 time,25%,50%,75%,100%,75%,0%
+Male,1st Year,School of Electrical Engineering,4,17,3 days car(grab); 2 days bus,12,6.0,7,9 am;10 am;11 am,1 pm;3 pm;4 pm;5 pm,4,1 time,Never,Never,Never,Never,Never,100%,100%,75%,75%,75%,50%
+Female,2nd Year,School of Computing,3.91,18,Walking,5,0.0,6,10:00 AM,5:00 PM,4,Never,Never,Never,Never,Never,Never,75%,75%,75%,75%,75%,75%
+Male,2nd Year,School of Computing,3.15,18,Car,5,0.0,6,9:00 AM,1 pm;3 pm;4 pm,3,Never,Never,Never,Never,Never,Never,75%,75%,75%,75%,50%,50%
+Female,1st Year,School of Bio-sciences & Medical Engineering,3.6,18,Bus,15,8.0,5,10 am;11 am,1 pm;4 pm,3,Never,Never,Never,Never,Never,Never,100%,100%,75%,75%,50%,25%
+Female,2nd Year,Faculty of Science,3.51,17,Bus,15,0.0,7,8:00 AM,1:00 PM,3,Never,Never,Never,Never,Never,Never,100%,100%,100%,50%,50%,50%
+Male,1st Year,School of Computing,3.45,18,Bus,10,0.0,7,10 am;11 am,1:00 PM,5,Never,Never,Never,2 times,2 times,2 times,75%,100%,100%,50%,50%,25%
+Male,1st Year,School of Computing,3.89,14,Walking,10,0.0,6,8 am;9 am,1:00 PM,5,Never,Never,Never,Never,Never,Never,75%,75%,75%,50%,25%,25%
+Male,1st Year,School of Electrical Engineering,0,17,Car,15,7.0,5,11:00 AM,5:00 PM,2,3 times,Never,Never,1 time,Never,Never,50%,100%,100%,75%,75%,100%
+Male,2nd Year,School of Chemical and Energy Engineering,3.35,16,Car,7,6.0,5,8 am;9 am,1 pm;3 pm,5,4 times,Never,Never,Never,Never,5+ times,50%,100%,75%,25%,0%,0%
+Female,1st Year,School of Computing,3.96,16,Walking,10,0.0,6,8:00 AM,1:00 PM,4,Never,Never,Never,Never,Never,Never,100%,100%,100%,75%,50%,25%
+Male,1st Year,School of Computing,3.5,18,Bus,20,5.0,5,9:00 AM,3:00 PM,4,3 times,Never,Never,Never,2 times,3 times,25%,50%,50%,50%,25%,0%
+Male,2nd Year,School of Electrical Engineering,3.4,18,Grab,15,5.0,6,8:00 AM,1:00 PM,2,1 time,Never,Never,Never,1 time,1 time,50%,100%,100%,50%,25%,0%
+Male,2nd Year,School of Electrical Engineering,2.21,16,Car,15,5.0,6,9 am;10 am,1 pm;3 pm;4 pm,3,5+ times,2 times,Never,Never,Never,Never,0%,50%,50%,50%,25%,25%
+Male,1st Year,School of Mechanical Engineering,3.48,20,Grab,20,11.0,5,9:00 AM,1:00 PM,3,Never,Never,Never,Never,Never,Never,100%,100%,100%,75%,50%,25%
+Female,2nd Year,School of Computing,3.93,21,Walking,6,0.0,7,11:00 AM,4 pm;5 pm,4,Never,Never,Never,Never,Never,Never,75%,75%,75%,75%,75%,75%
+Male,1st Year,School of Computing,3.9,16,Walking,40,15.0,4,11:00 AM,1:00 PM,1,Never,Never,Never,Never,Never,Never,75%,50%,100%,0%,0%,0%
+Male,2nd Year,School of Electrical Engineering,3,16,Bus,40,10.0,5,10:00 AM,3 pm;4 pm,2,2 times,Never,Never,Never,Never,Never,100%,75%,75%,50%,0%,0%
+Male,2nd Year,School of Electrical Engineering,3.29,16,Car,10,5.0,7,9 am;10 am;11 am,1 pm;3 pm,2,2 times,Never,Never,Never,Never,Never,50%,75%,100%,100%,100%,100%
+Male,1st Year,School of Electrical Engineering,4,16,Bus,45,0.0,4,10 am;11 am,4 pm;5 pm;6 pm,3,1 time,Never,Never,Never,Never,Never,0%,50%,75%,75%,75%,75%
+Male,4th Year,School of Chemical and Energy Engineering,3.65,13,Car,8,4.0,6,8:00 AM,1:00 PM,4,1 time,Never,Never,2 times,3 times,4 times,75%,75%,50%,25%,25%,0%
+Male,2nd Year,School of Computing,3.74,18,Bus,15,0.0,7,9:00 AM,1:00 PM,3,Never,Never,Never,Never,Never,Never,75%,100%,100%,75%,50%,25%
+Male,3rd Year,School of Chemical and Energy Engineering,3.5,17,Bus,20,4.0,4,11:00 AM,3 pm;4 pm,0,3 times,1 time,Never,Never,Never,2 times,25%,50%,100%,100%,50%,50%
+Male,1st Year,School of Electrical Engineering,3.8,18,Bus,20,0.0,5,10:00 AM,4:00 PM,2,2 times,Never,Never,Never,Never,5+ times,25%,100%,100%,75%,50%,0%
+Male,2nd Year,School of Electrical Engineering,3.2,16,Grab,15,8.0,6,10:00 AM,4:00 PM,0,3 times,Never,Never,Never,Never,Never,50%,100%,100%,50%,25%,25%
+Male,1st Year,School of Electrical Engineering,3.53,18,Bus,30,4.0,8,8:00 AM,1:00 PM,4,2 times,Never,Never,Never,Never,Never,100%,100%,75%,50%,50%,25%
+Female,1st Year,School of Bio-sciences & Medical Engineering,3.62,18,Bus,15,5.0,5,9 am;10 am,1 pm;3 pm;4 pm,4,1 time,Never,Never,Never,Never,Never,100%,100%,75%,50%,25%,0%
+Female,1st Year,School of Computing,3.78,16,Walking,10,0.0,7,9 am;10 am,1 pm;3 pm,4,Never,Never,Never,Never,Never,Never,50%,75%,75%,50%,50%,50%
+Female,1st Year,School of Computing,3.95,18,Walking,8,0.0,5,8 am;9 am,1:00 PM,3,1 time,Never,Never,Never,1 time,1 time,50%,75%,75%,100%,50%,50%
+Female,2nd Year,School of Computing,3.4,17,Walking,15,6.0,6,11:00 AM,1:00 PM,2,Never,2 times,3 times,2 times,Never,Never,25%,100%,100%,50%,25%,0%
+Female,1st Year,School of Computing,3.71,16,Walking,8,0.0,6,9:00 AM,1:00 PM,3,2 times,Never,Never,1 time,2 times,2 times,75%,75%,75%,50%,50%,25%
+Female,1st Year,School of Computing,3.82,16,Walking,5,0.0,6,11:00 AM,4:00 PM,3,Never,Never,Never,Never,Never,Never,25%,75%,25%,50%,50%,0%
+Male,1st Year,School of Computing,3.42,17,Bike,5,1.0,5,11:00 AM,1:00 PM,1,5+ times,3 times,3 times,3 times,5+ times,5+ times,50%,50%,50%,25%,25%,0%
+Female,1st Year,School of Computing,0,17,Walking,5,1.0,5,9 am;10 am,1:00 PM,3,Never,Never,Never,Never,Never,Never,50%,75%,25%,25%,25%,25%
+Female,1st Year,School of Computing,3,16,Walking,5,0.0,7,8:00 AM,1 pm;3 pm,2,Never,Never,Never,Never,1 time,Never,75%,75%,50%,50%,50%,25%
+Female,2nd Year,School of Computing,3.67,18,Walking,5,0.0,6,10:00 AM,1 pm;3 pm,2,2 times,2 times,2 times,2 times,2 times,2 times,100%,75%,50%,25%,0%,0%
+Female,1st Year,Faculty of Science,3.19,18,Bus,10,0.0,5,8 am;9 am,1:00 PM,2,Never,Never,Never,Never,1 time,1 time,50%,50%,50%,50%,25%,25%
+Female,2nd Year,School of Computing,4,17,Walking,15,0.0,6,11:00 AM,1:00 PM,3,Never,Never,Never,Never,Never,Never,100%,75%,50%,75%,100%,100%
+Female,1st Year,School of Computing,3.89,16,Walking,10,0.0,5,9:00 AM,1:00 PM,3,Never,Never,1 time,1 time,1 time,3 times,50%,75%,50%,50%,25%,25%
+Female,1st Year,School of Civil Engineering,3.67,18,Walking,10,5.0,5,9 am;10 am,4 pm;5 pm,2,2 times,Never,Never,Never,Never,2 times,50%,50%,25%,75%,50%,50%
+Female,2nd Year,School of Civil Engineering,3.44,18,Bike,2,0.0,5,8:00 AM,1:00 PM,4,Never,Never,Never,Never,Never,Never,100%,75%,50%,50%,50%,50%
+Female,1st Year,School of Computing,3.45,18,Walking,10,0.0,6,9:00 AM,1:00 PM,4,Never,Never,Never,Never,Never,Never,25%,100%,100%,75%,50%,25%
+Female,1st Year,School of Computing,3.21,14,Walking,8,0.0,5,10 am;11 am,1 pm;3 pm,4,1 time,Never,Never,Never,Never,Never,50%,75%,75%,50%,25%,25%
+Female,1st Year,School of Computing,3.8,16,Walking,10,0.0,9,10 am;11 am,1 pm;3 pm,5,1 time,Never,Never,Never,1 time,Never,50%,50%,50%,50%,50%,50%
+Male,3rd Year,School of Computing,3.4,18,Car,15,7.0,6,9:00 AM,4:00 PM,3,3 times,Never,Never,1 time,2 times,4 times,25%,75%,50%,75%,25%,0%
+Female,1st Year,School of Chemical and Energy Engineering,3.98,18,Bus,15,2.0,4,9:00 AM,1:00 PM,3,Never,Never,Never,Never,Never,Never,75%,100%,100%,75%,50%,25%
+Male,2nd Year,School of Computing,3.93,17,Car,5,0.0,5,8 am;9 am;10 am;11 am,1:00 PM,3,Never,1 time,Never,Never,Never,Never,75%,75%,50%,50%,25%,25%
+Male,2nd Year,School of Computing,3.6,18,Car,5,8.0,7,10:00 AM,4 pm;5 pm,4,Never,1 time,3 times,1 time,2 times,1 time,0%,25%,50%,75%,50%,25%
+Female,1st Year,School of Computing,3.3,18,Walking,5,0.0,5,10 am;11 am,1:00 PM,3,5+ times,Never,Never,Never,Never,Never,25%,50%,50%,25%,25%,75%
+Male,4th Year,School of Computing,3.7,12,Bike,5,0.0,8,9:00 AM,1:00 PM,5,Never,Never,Never,Never,Never,Never,100%,75%,50%,25%,0%,0%
+Male,1st Year,School of Computing,3.81,18,Walking,8,0.0,6,9:00 AM,4:00 PM,3,3 times,Never,Never,Never,Never,Never,25%,75%,75%,75%,25%,25%
+Female,3rd Year,School of Computing,3.58,17,Walking,10,0.0,6,9:00 AM,4:00 PM,5,Never,Never,Never,Never,Never,Never,75%,50%,50%,75%,25%,25%
+Male,1st Year,School of Computing,3.9,18,Walking,10,0.0,5,9:00 AM,1 pm;3 pm,5,Never,Never,Never,Never,Never,Never,75%,75%,0%,75%,75%,50%
+Female,1st Year,School of Computing,3.13,18,Walking,10,0.0,6,10 am;11 am,4:00 PM,2,5+ times,Never,2 times,Never,4 times,5+ times,25%,100%,50%,75%,50%,25%
+Female,2nd Year,School of Computing,4,17,Car,10,3.0,7,9 am;10 am;11 am,1 pm;3 pm;4 pm,3,Never,Never,Never,Never,Never,Never,50%,75%,75%,50%,50%,50%
+Male,1st Year,School of Computing,4,17,Walking,8,0.0,8,11:00 AM,1 pm;3 pm;4 pm,5,Never,Never,Never,Never,Never,Never,100%,75%,50%,75%,50%,50%
+Female,4th Year,School of Computing,3.88,14,Walking,7,0.0,6,11:00 AM,1:00 PM,4,Never,Never,Never,Never,Never,Never,50%,75%,50%,50%,50%,50%
+Female,1st Year,School of Computing,3.45,18,Walking,5,0.0,6,11:00 AM,4:00 PM,5,3 times,Never,Never,4 times,Never,5+ times,100%,100%,50%,75%,25%,0%
+Female,3rd Year,School of Computing,2.91,18,Walking,10,0.0,6,10 am;11 am,1 pm;3 pm,3,Never,Never,Never,Never,Never,Never,25%,75%,75%,50%,50%,25%
+Female,4th Year,School of Computing,3.73,12,Walking,5,0.0,6,9:00 AM,1:00 PM,5,Never,Never,Never,Never,Never,Never,75%,75%,50%,50%,25%,25%
+Female,3rd Year,School of Computing,3.84,19,Walking,15,5.0,5,10 am;11 am,4:00 PM,3,5+ times,2 times,Never,Never,3 times,3 times,0%,100%,75%,100%,25%,0%
+Female,1st Year,School of Computing,3.6,17,Walking,5,0.0,5,11:00 AM,4:00 PM,5,1 time,Never,Never,Never,Never,Never,25%,75%,50%,50%,25%,25%
+Female,3rd Year,School of Computing,3.4,17,Walking,15,0.0,7,10 am;11 am,4 pm;5 pm,3,5+ times,1 time,Never,2 times,2 times,Never,50%,75%,50%,25%,50%,50%
+Female,1st Year,School of Computing,3.3,17,Car,10,0.0,5,10 am;11 am,4 pm;5 pm,2,2 times,Never,Never,Never,Never,Never,25%,75%,75%,25%,25%,25%
+Male,2nd Year,School of Computing,2.78,18,Bike,10,5.0,7,11:00 AM,4:00 PM,3,2 times,Never,1 time,1 time,Never,1 time,25%,75%,50%,50%,25%,25%
+Female,4th Year,School of Computing,3.87,18,Walking,10,0.0,5,9 am;10 am,4:00 PM,1,2 times,Never,Never,Never,2 times,4 times,75%,100%,75%,50%,25%,0%
+Female,2nd Year,School of Computing,3.96,17,Walking,15,10.0,7,9 am;10 am;11 am,3 pm;4 pm,3,5+ times,Never,Never,Never,Never,Never,50%,75%,50%,50%,50%,50%
+Female,2nd Year,School of Computing,2.86,18,Walking,15,5.0,6,9:00 AM,4:00 PM,2,2 times,Never,Never,4 times,5+ times,5+ times,75%,75%,75%,50%,25%,0%
+Female,3rd Year,School of Computing,3.48,17,Walking,10,0.0,5,10:00 AM,1 pm;3 pm;4 pm,4,2 times,Never,Never,Never,Never,Never,25%,50%,50%,25%,25%,25%
+Female,1st Year,School of Computing,3.15,17,Bus,15,5.0,4,9 am;10 am,3 pm;4 pm;5 pm,3,2 times,1 time,1 time,1 time,1 time,1 time,25%,75%,75%,75%,25%,50%
+Female,2nd Year,School of Computing,3.96,17,Walking,15,10.0,7,10 am;11 am,3 pm;4 pm,4,5+ times,Never,Never,Never,Never,Never,75%,75%,50%,50%,50%,50%
+Male,2nd Year,School of Computing,3.19,18,Walking,15,0.0,5,9 am;10 am;11 am,1 pm;3 pm,3,2 times,Never,Never,Never,Never,Never,50%,75%,50%,25%,25%,0%
+Female,3rd Year,School of Computing,3.36,17,Walking,10,0.0,5,10:00 AM,1:00 PM,4,3 times,Never,Never,Never,Never,Never,0%,100%,75%,50%,50%,50%
+Female,2nd Year,School of Computing,2.95,18,Bus,45,10.0,8,10 am;11 am,4 pm;5 pm,2,Never,2 times,Never,Never,Never,Never,0%,50%,75%,0%,75%,75%
+Female,4th Year,School of Computing,3.31,15,Walking,5,0.0,7,8 am;9 am,1 pm;3 pm,2,1 time,2 times,2 times,1 time,2 times,3 times,50%,50%,25%,75%,50%,50%
+Female,4th Year,School of Computing,3.8,12,Walking,15,0.0,5,10:00 AM,4:00 PM,4,2 times,Never,Never,Never,Never,2 times,100%,75%,50%,50%,25%,25%
+Female,3rd Year,School of Computing,3.37,18,Walking,15,5.0,5,9 am;10 am;11 am,1 pm;3 pm;4 pm,3,3 times,Never,2 times,Never,2 times,3 times,100%,100%,75%,50%,25%,25%
+Male,1st Year,School of Computing,2.8,17,Bus,20,0.0,7,8 am;9 am,1 pm;3 pm,3,1 time,Never,Never,2 times,3 times,3 times,75%,100%,75%,50%,25%,25%
+Male,1st Year,School of Computing,2.1,14,Bus,30,10.0,8,9:00 AM,1:00 PM,3,2 times,Never,Never,Never,4 times,5+ times,100%,100%,50%,25%,25%,0%
+Female,3rd Year,School of Computing,3.64,17,Walking,15,0.0,6,11:00 AM,1:00 PM,3,3 times,Never,Never,Never,Never,Never,75%,75%,75%,50%,50%,50%
+Male,1st Year,School of Computing,3.96,17,Walking,15,0.0,6,9 am;10 am,4:00 PM,1,5+ times,3 times,Never,Never,3 times,4 times,25%,100%,100%,75%,25%,0%
+Male,2nd Year,School of Computing,3.75,17,Car,10,6.0,6,9 am;10 am,5:00 PM,3,3 times,Never,Never,Never,Never,2 times,25%,75%,75%,50%,25%,0%
+Male,4th Year,School of Computing,3.84,12,Walking,15,0.0,8,9 am;10 am,1:00 PM,3,2 times,1 time,1 time,Never,Never,1 time,50%,75%,50%,75%,75%,50%
+Male,2nd Year,School of Computing,3.93,18,Walking,10,0.0,6.5,9:00 AM,1:00 PM,2,5+ times,Never,Never,1 time,3 times,5+ times,50%,75%,75%,50%,25%,0%
+Male,2nd Year,School of Computing,3,17,Car,10,0.0,5,9:00 AM,1:00 PM,0,Never,Never,Never,Never,Never,Never,25%,25%,25%,25%,25%,25%
+Male,3rd Year,School of Computing,2.77,18,Bike,15,6.0,4,10:00 AM,5:00 PM,3,4 times,Never,Never,Never,Never,Never,25%,100%,100%,75%,75%,75%
+Male,3rd Year,School of Computing,3.61,15,Car,15,5.0,6,10 am;11 am,1 pm;3 pm;4 pm,3,5+ times,Never,Never,Never,1 time,2 times,25%,100%,100%,50%,75%,25%
+Male,1st Year,School of Computing,3.96,18,Walking,5,0.0,8,10 am;11 am,1 pm;3 pm,5,1 time,Never,Never,Never,1 time,1 time,50%,75%,75%,50%,25%,25%
+Male,1st Year,School of Computing,0,18,Bus,30,0.0,7,9:00 AM,4:00 PM,3,Never,Never,Never,Never,Never,Never,25%,50%,50%,25%,25%,25%
+Female,3rd Year,School of Computing,3.4,18,Car,10,3.0,6,10:00 AM,1:00 PM,3,2 times,Never,Never,Never,Never,1 time,75%,50%,50%,25%,25%,25%
+Male,1st Year,School of Computing,3.63,17,Walking,5,0.0,6,10 am;11 am,1 pm;3 pm;4 pm,2,5+ times,Never,Never,Never,2 times,4 times,25%,50%,50%,25%,0%,0%
+Male,1st Year,School of Computing,3.96,17,Walking,5,0.0,8,10 am;11 am,1 pm;3 pm;4 pm,4,3 times,Never,Never,Never,Never,5+ times,25%,75%,50%,25%,25%,0%
+Female,3rd Year,School of Computing,2.74,15,Walking,10,0.0,4,10:00 AM,1 pm;3 pm,2,4 times,Never,Never,1 time,4 times,3 times,25%,100%,100%,75%,25%,0%
+Male,3rd Year,School of Computing,2.6,18,motorcycle,10,0.0,6,9:00 AM,5:00 PM,3,3 times,Never,Never,Never,Never,Never,25%,100%,75%,75%,50%,25%
+Male,2nd Year,School of Computing,3.11,18,Car,5,2.0,5,11:00 AM,4:00 PM,5,2 times,1 time,Never,Never,1 time,Never,25%,50%,100%,75%,50%,25%
+Female,4th Year,School of Computing,3.25,15,Walking,5,0.0,4,9:00 AM,4:00 PM,2,1 time,1 time,1 time,1 time,1 time,1 time,75%,100%,25%,25%,25%,0%
+Male,2nd Year,School of Electrical Engineering,3.17,18,Bike,7,1.0,8,8:00 AM,1:00 PM,5,1 time,2 times,1 time,2 times,1 time,2 times,50%,75%,75%,75%,50%,50%
+Female,1st Year,School of Bio-sciences & Medical Engineering,0,17,Bus,30,10.0,5,9 am;10 am;11 am,1 pm;3 pm;4 pm;5 pm,1,1 time,Never,Never,Never,Never,1 time,0%,75%,75%,75%,50%,25%
+Female,4th Year,School of Bio-sciences & Medical Engineering,3.23,12,Walking,7,0.0,5,10:00 AM,4:00 PM,4,2 times,1 time,Never,Never,Never,2 times,75%,75%,75%,100%,75%,50%
+Male,1st Year,School of Computing,3.83,18,Bike,10,0.0,5,9:00 AM,4:00 PM,3,Never,Never,Never,Never,Never,5+ times,75%,100%,100%,75%,50%,25%
+Male,3rd Year,School of Chemical and Energy Engineering,3.01,16,Car,15,8.0,4,9:00 AM,1:00 PM,3,3 times,Never,Never,Never,Never,Never,50%,75%,100%,100%,75%,25%
+Male,2nd Year,School of Mechanical Engineering,3.48,18,Bike,7,0.5,10,11:00 AM,4:00 PM,2,3 times,1 time,Never,Never,Never,2 times,25%,50%,75%,100%,75%,25%
+Male,3rd Year,School of Computing,3.4,17,Bike,15,0.0,6,10:00 AM,4:00 PM,2,1 time,1 time,1 time,1 time,1 time,1 time,50%,100%,0%,50%,50%,0%
+Male,1st Year,School of Computing,3.04,16,Bus,20,5.0,6,9:00 AM,1:00 PM,2,Never,Never,Never,Never,Never,Never,100%,75%,50%,50%,50%,50%
+Male,4th Year,School of Computing,3.48,15,Walking,15,0.0,5,8:00 AM,4:00 PM,4,Never,Never,Never,Never,Never,Never,100%,100%,25%,75%,50%,50%
+Male,1st Year,School of Computing,2.79,17,Bus,40,0.0,5,9 am;10 am;11 am,1 pm;3 pm,2,Never,Never,Never,Never,Never,Never,25%,50%,50%,50%,0%,0%
+Male,4th Year,School of Computing,3.87,12,Bike,5,0.0,8,8 am;9 am,1:00 PM,4,Never,Never,Never,Never,Never,Never,100%,75%,75%,50%,25%,25%
+Male,3rd Year,School of Mechanical Engineering,3.46,18,Bike,5,10.0,6,10 am;11 am,3 pm;4 pm,3,Never,Never,Never,Never,Never,Never,75%,100%,75%,75%,75%,50%
+Male,1st Year,School of Bio-sciences & Medical Engineering,3.04,14,Walking,10,0.0,4,9:00 AM,6:00 PM,2,3 times,Never,Never,Never,1 time,Never,25%,100%,100%,100%,100%,50%
+Male,3rd Year,School of Computing,3.24,17,Car,4,0.0,7,10 am;11 am,4:00 PM,5,Never,Never,Never,Never,Never,Never,100%,100%,75%,75%,75%,75%
+Male,3rd Year,School of Bio-sciences & Medical Engineering,3.52,19,Car,20,0.0,4.5,9 am;10 am,4 pm;5 pm;6 pm,3,5+ times,Never,Never,1 time,Never,Never,75%,100%,100%,50%,75%,75%
+Male,4th Year,School of Computing,2.9,16,Bike,10,0.1,6,8:00 AM,4:00 PM,5,2 times,Never,Never,Never,Never,Never,100%,100%,100%,100%,100%,100%
+Male,3rd Year,School of Bio-sciences & Medical Engineering,3.52,19,Car,20,0.0,4.5,9 am;10 am,4 pm;5 pm;6 pm,3,5+ times,Never,Never,1 time,Never,Never,75%,100%,100%,50%,75%,75%
+Male,1st Year,School of Computing,3.69,17,Walking,10,0.0,5,9:00 AM,4:00 PM,4,Never,Never,Never,Never,Never,Never,100%,100%,100%,100%,100%,100%
+Female,2nd Year,School of Bio-sciences & Medical Engineering,3.02,19,Bus,30,10.0,6,9 am;10 am,3:00 PM,3,2 times,Never,Never,2 times,3 times,3 times,75%,50%,75%,25%,25%,25%
+Female,2nd Year,School of Bio-sciences & Medical Engineering,3.02,19,Bus,30,10.0,6,9 am;10 am,3:00 PM,3,2 times,Never,Never,2 times,3 times,3 times,75%,50%,75%,25%,25%,25%
+Male,1st Year,School of Electrical Engineering,3.7,18,Grab,20,15.0,5,11:00 AM,6:00 PM,1,3 times,2 times,Never,Never,Never,Never,25%,50%,75%,75%,75%,75%
+Male,2nd Year,School of Mechanical Engineering,3.76,18,Car,10,6.0,5,9:00 AM,5:00 PM,2,3 times,2 times,1 time,1 time,2 times,3 times,25%,50%,75%,100%,75%,50%
+Male,2nd Year,School of Mechanical Engineering,3.38,18,Car,10,6.0,4,10:00 AM,4:00 PM,3,5+ times,2 times,Never,Never,5+ times,5+ times,25%,50%,100%,100%,0%,0%
+Female,2nd Year,School of Bio-sciences & Medical Engineering,3.71,18,Bus,40,0.0,6,9:00 AM,1:00 PM,3,Never,Never,Never,3 times,5+ times,5+ times,100%,75%,50%,50%,25%,25%
+Female,4th Year,School of Computing,3.18,18,Car,10,0.0,5,11:00 AM,3:00 PM,3,2 times,Never,Never,1 time,1 time,2 times,50%,50%,50%,25%,25%,25%
+Male,2nd Year,School of Computing,3.2,17,Bike,12,1.0,4,8:00 AM,1:00 PM,3,Never,Never,Never,1 time,2 times,3 times,100%,75%,75%,50%,50%,25%
+Male,1st Year,School of Computing,3.74,17,Walking,10,0.0,6,8 am;9 am;10 am;11 am,1:00 PM,4,Never,Never,Never,Never,2 times,2 times,100%,100%,100%,75%,50%,50%
+Male,1st Year,School of Computing,2.69,16,Car,10,50.0,5,8:00 AM,1:00 PM,4,1 time,Never,Never,3 times,3 times,3 times,50%,75%,50%,0%,0%,0%
+Male,1st Year,School of Mechanical Engineering,3.5,16,Bike,7,1.0,8,8:00 AM,4:00 PM,2,Never,Never,Never,Never,Never,Never,75%,75%,75%,75%,75%,75%
+Female,4th Year,School of Computing,3.63,12,Car,3,0.0,5,9 am;10 am,3 pm;4 pm,5,5+ times,4 times,3 times,3 times,3 times,5+ times,50%,75%,25%,50%,50%,0%
+Male,Postgraduate,School of Electrical Engineering,4,16,Car,10,7.0,5,11:00 AM,4:00 PM,3,5+ times,Never,Never,2 times,5+ times,Never,100%,100%,75%,25%,25%,75%
+Female,2nd Year,School of Bio-sciences & Medical Engineering,3.55,19,Grab ,20,12.0,5,11:00 AM,3:00 PM,0,2 times,1 time,Never,Never,Never,Never,0%,25%,100%,100%,75%,25%
+Female,4th Year,School of Computing,3.42,18,Walking,5,0.0,5,9:00 AM,4:00 PM,3,Never,Never,Never,Never,Never,Never,100%,100%,50%,75%,75%,75%
+Female,3rd Year,School of Computing,2.66,18,Walking,20,0.0,5,11:00 AM,5:00 PM,2,5+ times,1 time,1 time,1 time,1 time,1 time,0%,75%,75%,75%,75%,75%
+Female,2nd Year,School of Bio-sciences & Medical Engineering,3.69,16,Bus,15,0.0,5,9:00 AM,4:00 PM,3,Never,Never,Never,Never,Never,Never,25%,75%,50%,75%,25%,25%
+Male,1st Year,School of Electrical Engineering,3.77,16,Submarine ,8,1.0,8,11:00 AM,1:00 PM,3,5+ times,5+ times,5+ times,5+ times,5+ times,5+ times,0%,0%,0%,0%,0%,0%
+Male,3rd Year,School of Computing,3,18,Bus,20,7.0,5,10:00 AM,3:00 PM,4,5+ times,2 times,2 times,2 times,3 times,4 times,50%,75%,75%,50%,25%,25%
+Female,3rd Year,School of Computing,3.51,17,Walking,20,0.0,5,9 am;10 am,1:00 PM,3,2 times,Never,Never,Never,Never,2 times,25%,100%,100%,100%,25%,0%
+Male,1st Year,School of Computing,3.5,16,Car,3,0.0,4,10:00 AM,1 pm;3 pm,4,5+ times,2 times,Never,1 time,Never,2 times,25%,75%,50%,75%,0%,0%
+Female,4th Year,School of Computing,3.97,16,Walking,15,0.0,7,9 am;10 am,4:00 PM,3,2 times,1 time,Never,1 time,1 time,Never,25%,50%,50%,75%,50%,50%
+Male,2nd Year,School of Computing,3.28,18,Bus,20,0.0,8,10 am;11 am,1 pm;4 pm,5,1 time,Never,Never,Never,Never,Never,75%,75%,50%,50%,50%,50%
+Female,3rd Year,School of Computing,3.03,18,Bus,10,5.0,7,9:00 AM,1:00 PM,4,Never,Never,Never,1 time,1 time,1 time,100%,100%,75%,75%,25%,0%
+Female,2nd Year,School of Computing,3.96,17,Walking,15,0.0,7,10 am;11 am,3 pm;4 pm,3,5+ times,Never,Never,Never,Never,1 time,25%,100%,75%,50%,75%,25%
+Male,1st Year,School of Computing,0,18,Car,15,10.0,5,9 am;10 am,1 pm;3 pm,1,3 times,1 time,Never,Never,Never,Never,50%,75%,75%,50%,25%,0%
+Female,2nd Year,School of Bio-sciences & Medical Engineering,3.69,16,Bus,15,0.0,5,9:00 AM,4:00 PM,3,Never,Never,Never,Never,Never,Never,25%,75%,50%,75%,25%,25%
+Female,2nd Year,School of Bio-sciences & Medical Engineering,3.69,16,Bus,15,0.0,5,9:00 AM,4:00 PM,3,Never,Never,Never,Never,Never,Never,25%,75%,50%,75%,25%,25%
+Male,1st Year,Faculty of Science,3.82,18,Bus,23,0.0,6,8:00 AM,1:00 PM,4,3 times,Never,Never,Never,Never,Never,100%,75%,75%,25%,0%,0%
+Male,1st Year,School of Computing,2.91,17,Car,10,7.0,6,11:00 AM,1:00 PM,5,2 times,Never,Never,2 times,2 times,3 times,75%,50%,50%,25%,50%,75%
+Female,1st Year,School of Computing,3.58,16,Walking,10,0.0,6,9:00 AM,3:00 PM,4,Never,Never,5+ times,Never,Never,Never,75%,75%,0%,75%,25%,25%
+Male,1st Year,School of Computing,0,18,Bus,19,6.0,7,8:00 AM,1 pm;3 pm,4,Never,Never,Never,3 times,Never,Never,75%,50%,50%,25%,0%,0%
+Male,3rd Year,School of Computing,3.78,18,Bus,15,0.0,8,8 am;9 am,1 pm;3 pm;4 pm;5 pm;6 pm,5,Never,Never,Never,Never,Never,Never,100%,75%,75%,50%,50%,50%
+Male,1st Year,School of Electrical Engineering,0,16,Bus,40,2.0,8,9 am;11 am,1:00 PM,3,3 times,Never,Never,1 time,5+ times,2 times,75%,75%,0%,50%,25%,0%
+Male,3rd Year,School of Computing,3.77,16,Bike,10,7.0,5,10 am;11 am,4:00 PM,0,4 times,Never,Never,Never,Never,4 times,50%,100%,100%,75%,50%,25%
+Female,1st Year,School of Electrical Engineering,3.4,17,Bus,15,5.0,4,10 am;11 am,3 pm;4 pm,2,4 times,Never,Never,2 times,2 times,2 times,50%,100%,75%,50%,25%,25%
+Male,1st Year,School of Mechanical Engineering,3.41,18,Bus,20,15.0,5,10 am;11 am,4:00 PM,3,Never,Never,Never,Never,Never,Never,25%,75%,50%,50%,0%,0%
+Male,1st Year,School of Electrical Engineering,3.93,17,Bus,30,0.0,7,8 am;9 am,1 pm;3 pm;4 pm;5 pm,3,Never,Never,Never,Never,Never,3 times,50%,100%,100%,75%,50%,25%
+Male,3rd Year,School of Electrical Engineering,3.4,18,"Sometimes bus, and sometimes grabcar",10,6.0,6,8:00 AM,1:00 PM,3,2 times,Never,Never,3 times,2 times,4 times,75%,75%,75%,50%,25%,25%
+Female,1st Year,School of Electrical Engineering,3.91,15,Bus,30,5.0,4,11:00 AM,6:00 PM,0,3 times,2 times,Never,Never,Never,Never,25%,100%,100%,100%,100%,100%
+Male,4th Year,School of Mechanical Engineering,3.62,19,Bus,25,0.0,7,11:00 AM,4:00 PM,4,3 times,1 time,Never,1 time,1 time,1 time,50%,75%,100%,100%,75%,75%
+Male,2nd Year,School of Electrical Engineering,3.52,16,Bus,30,6.0,6,8 am;9 am,1 pm;4 pm,3,2 times,Never,1 time,1 time,Never,2 times,75%,50%,50%,25%,25%,0%
+Male,1st Year,School of Electrical Engineering,3.86,17,Bus,25,7.0,6,9 am;10 am;11 am,1:00 PM,4,1 time,Never,Never,Never,1 time,1 time,50%,100%,100%,25%,50%,25%
+Male,3rd Year,School of Mechanical Engineering,3.6,15,Bike,13,2.0,5,9:00 AM,6:00 PM,0,5+ times,Never,Never,Never,Never,Never,0%,100%,50%,50%,50%,50%
+Male,3rd Year,School of Electrical Engineering,3.47,16,Bike,15,2.0,5,10:00 AM,4:00 PM,3,5+ times,2 times,2 times,2 times,2 times,2 times,50%,100%,100%,50%,25%,25%
+Male,1st Year,School of Electrical Engineering,3.91,18,Bus,30,5.0,6,10:00 AM,4:00 PM,0,5+ times,Never,Never,Never,2 times,5+ times,25%,100%,100%,100%,50%,25%
+Female,1st Year,School of Electrical Engineering,3.73,18,Walking,10,0.0,6,8:00 AM,1 pm;4 pm,5,Never,Never,Never,3 times,3 times,3 times,100%,100%,75%,75%,50%,25%
+Male,1st Year,School of Electrical Engineering,1,22,Walking,120,120.0,0.5,8 am;9 am;10 am;11 am,1 pm;3 pm;4 pm;5 pm;6 pm,3,5+ times,5+ times,5+ times,5+ times,5+ times,5+ times,100%,100%,100%,100%,100%,100%
+Male,1st Year,School of Electrical Engineering,4,17,Bike,7,0.0,9,8:00 AM,1:00 PM,0,3 times,Never,Never,Never,Never,Never,75%,100%,100%,25%,25%,25%
+Male,1st Year,School of Electrical Engineering,2.8,17,Bus,15,6.0,4,8 am;9 am,4:00 PM,5,5+ times,2 times,Never,1 time,3 times,4 times,50%,25%,25%,100%,75%,50%
+Male,1st Year,School of Electrical Engineering,2.7,16,Bus,20,7.0,5,9 am;10 am,4:00 PM,3,3 times,Never,1 time,Never,Never,Never,25%,75%,75%,75%,0%,25%
+Male,1st Year,School of Electrical Engineering,4,19,Bus,45,10.0,5,8:00 AM,1 pm;3 pm,4,1 time,Never,Never,Never,4 times,4 times,75%,75%,25%,50%,0%,0%
+Female,1st Year,School of Electrical Engineering,4,19,Walking,10,0.0,5,10 am;11 am,1 pm;3 pm;4 pm,2,5+ times,2 times,2 times,2 times,2 times,Never,50%,75%,75%,75%,75%,75%
+Male,2nd Year,School of Electrical Engineering,3.56,16,Grab,15,7.0,6,10:00 AM,4:00 PM,2,4 times,Never,Never,Never,Never,Never,25%,75%,100%,100%,75%,75%
+Male,1st Year,School of Electrical Engineering,3.82,18,Bike,10,1.5,5,10:00 AM,4 pm;5 pm,3,5+ times,Never,5+ times,Never,Never,Never,0%,100%,0%,75%,50%,75%
+Male,1st Year,School of Computing,4,12,Wings,0.5,0.0,10,9:00 AM,4:00 PM,3,1 time,1 time,1 time,1 time,1 time,1 time,25%,25%,25%,25%,25%,25%
+Male,1st Year,School of Computing,3.5,17,Bus,17,0.0,6,10:00 AM,3:00 PM,0,2 times,2 times,2 times,2 times,2 times,2 times,50%,75%,75%,50%,0%,0%
+Male,1st Year,School of Computing,4,14,Walking,5,0.0,7,9 am;10 am,3 pm;4 pm,4,3 times,1 time,1 time,2 times,3 times,4 times,25%,100%,75%,50%,25%,25%
+Male,1st Year,School of Computing,3.77,14,Walking,10,0.0,5,9:00 AM,1:00 PM,4,2 times,Never,Never,Never,Never,2 times,75%,100%,50%,50%,50%,25%
+Female,1st Year,School of Computing,3.96,16,Walking,10,0.0,6,8:00 AM,1:00 PM,4,Never,Never,Never,Never,Never,Never,100%,100%,100%,75%,50%,25%
+Female,1st Year,School of Computing,3.96,16,Walking,5,0.0,6,8 am;9 am;10 am;11 am,1:00 PM,4,Never,Never,Never,Never,Never,Never,100%,100%,75%,75%,50%,25%
