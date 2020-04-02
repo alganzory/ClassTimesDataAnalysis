@@ -27,19 +27,89 @@ print (summary(resp))
 
 #PIE CHAT: PLOTTING MALE VS FEMALE ###################################################
 x <-  table(resp$Gender)
+library("RColorBrewer")
 
 piepercent<- round(100*x/sum(x), 1)
 
 # Plot the chart.
-pie(x, labels = piepercent, main = "Gender of respondents",col = rainbow(length(x)))
-legend("topright", c("Female students" , "Male students"), cex = 1,
-       fill = rainbow(length(x)))
+pie(x, labels = piepercent, main = "Gender of respondents",col = brewer.pal(n=3, name = "Dark2"))
+legend("topright", c("Female students" , "Male students"), cex = 0.8,
+       fill = brewer.pal(n=3, name = "Dark2"))
 
 
-#BAR CHART: PLOTTING MONEY SPENT ON TRASPORT###########################################
-moneySpent = table(resp$TransportMoney)
-moneySpent
-barplot(moneySpent,main = "Amount paid to get to classes (RM)")
+# Year PIE CHART ^^^############################################################
+library("RColorBrewer")
+x <-  table(resp$Year)
+col 
+
+piepercent<- round(100*x/sum(x), 1)
+
+# Plot the chart.
+pie(x, labels = piepercent, main = "Year of respondents",col=brewer.pal(n = 5, name = "Set2"))
+legend("topright", c("1st Year", "2nd Year", "3rd Year", "4th Year" , "Post Graduate"),
+       cex = 0.7,
+       fill = brewer.pal(n = 5, name = "Set2"))
+
+## STEAM AND LEAF : CGPA , credits#############################################################
+
+stem(resp$CGPA, scale = 0.5, atom = 2)
+stem(resp$Credits)
+
+
+##Histogram of Credits#####################################################################
+?hist
+
+library("RColorBrewer")
+hist(resp$Credits, main = "Number of Credits",
+     col = brewer.pal(n = 6, name = "YlOrRd"),breaks = 10,
+     xlab = "Number of Credits")
+
+
+#Histogram: PLOTTING MONEY SPENT ON TRASPORT###########################################
+
+
+library("RColorBrewer")
+hist(resp$TransportMoney, main = "Average money spent daily to get to class",
+     col = brewer.pal(n = 3, name = "Blues"),breaks = 5,
+     xlab = "Amount (RM)", ylim = c(0,160))
+abline(h=150)
+
+
+
+#BAR CHART, TRANSPORT VS ABSENCE AT 8 AM#############################################
+
+
+library("lattice")
+library("RColorBrewer")
+
+byBus = subset(resp, resp$Transport == "Bus")
+byBus = table (byBus$Skip8to10)
+byCar = subset(resp, resp$Transport == "Car")
+byCar = table (byCar$Skip8to10)
+byBike = subset(resp, resp$Transport == "Bike")
+byBike = table (byBike$Skip8to10)
+byWalking= subset(resp, resp$Transport == "Walking")
+length(byWalking)
+byWalking= table (byWalking$Skip8to10)
+
+
+
+byWalking
+byBike
+byBus
+byCar
+x= matrix (c(byWalking, byBike,byBus, byCar), byrow = FALSE, nrow = 6)
+
+
+labels = c ("Walking","Bike", "Bus", "Car")
+legendLabels = c( "1 time",  "2 times",  "3 times",  "4 times", "5+ times ",   "Never" )
+
+barplot(x, beside =  TRUE, names.arg = labels, 
+        col = brewer.pal(n = 6, name = "Dark2"))
+
+legend("topright" ,  legend = legendLabels, 
+       fill = brewer.pal(n = 6, name = "Dark2"),
+       box.lty = 6, cex = 0.9)
 
 #BAR CHAR: PLOTTING TIME TAKEN TO GO TO CLASS ##########################################
 
@@ -56,15 +126,8 @@ sleepHours
 barplot(sleepHours)
 
 
-#BAR CHAR: PREFERANCE FOR START ###########################################
-preferStart= table (resp$StartPreferance)
-preferStart
-barplot(preferStart, horiz =T)
-
 #BAR CHART: HOW OFTEN DO U SKIP CLASSES ##################################
 lev = c("Never", "1 time", "2 times", "3 times", "4 times", "5+ times")
-
-typeof(resp$Skip10to12)
 
 
 skip8to10 = table(factor(x=resp$Skip8to10, levels =lev ))
@@ -91,17 +154,14 @@ skipLegend = c("8 - 10 am", "10 - 12 pm", "12 - 1 pm", "2 - 4 pm",
 skipColors = rainbow(6)
 ?barplot()
 barplot(allSkips, main = "Expected number of absences", beside = T, col=skipColors,
-        names.arg = skipLabels, density= 75, cex.axis = 1,
+        names.arg = skipLabels, density= 100, cex.axis = 1,
         ylim = c(0,200))
 
-legend("topright",fill= skipColors, density=75, skipLegend, box.lty = 3, cex = 0.9)
+legend("topright",fill= skipColors, density=100, skipLegend, box.lty = 3, cex = 0.9)
 
 #BAR CHART: CONCENTRATION LEVELS ##################################
 lev = c("100%","75%","50%","25%" ,"0%"  )
 
-
-oo = table(factor(x=resp$Concentration8to10, levels = lev))
-oo 
 conc8to10 = table(factor(x=resp$Concentration8to10, levels =lev ))
 conc10to12 = table(factor(x=resp$Concentration10to12, levels =lev ))
 conc12to1 = table(factor(x=resp$Concentration12to1, levels =lev ))
@@ -149,37 +209,69 @@ barplot(hoursOfSleep)
 
 
 # HOURS OF START PREFERANCE #################################################
-# I had to use a regex library to detect in strings!!!
+# I had to use a regex library to detect in string
 
-library(string)
-preferat8= length((subset(x=resp$StartPreferance, 
-                  resp$StartPreferance == "8:00 AM" | stri_detect(resp$StartPreferance, regex = "8 am") )))
-
-
-preferat9= length((subset(x=resp$StartPreferance, 
-                  resp$StartPreferance == "9:00 AM" | stri_detect(resp$StartPreferance, regex = "9 am") )))
-
-preferat10= length((subset(x=resp$StartPreferance, 
-                          resp$StartPreferance == "10:00 AM" | stri_detect(resp$StartPreferance, regex = "10 am") )))
+library(stringi)
+preferat8= length((subset(x=resp$StartPreferance, stri_detect(resp$StartPreferance, regex = "8") )))
 
 
-preferat11= length((subset(x=resp$StartPreferance, 
-                          resp$StartPreferance == "11:00 AM" | stri_detect(resp$StartPreferance, regex = "11 am") )))
-class(preferat8)
-class(preferat9)
+preferat9= length((subset(x=resp$StartPreferance, stri_detect(resp$StartPreferance, regex = "9") )))
+
+preferat10= length((subset(x=resp$StartPreferance, stri_detect(resp$StartPreferance, regex = "10") )))
+
+
+preferat11= length((subset(x=resp$StartPreferance,stri_detect(resp$StartPreferance, regex = "11") )))
 
 barplot(c(preferat11,preferat10,preferat9,preferat8), names.arg = c("11 am", "10 am", "9 am", "8 am"), horiz = T, xlim =c(0,100))
+
+
+# HOURS OF END PREFERANCE #################################################
+# I had to use a regex library to detect in string
+
+library(stringi)
+preferat1= length((subset(x=resp$EndPreferance, stri_detect(resp$EndPreferance, regex = "1") )))
+
+preferat3= length((subset(x=resp$EndPreferance, stri_detect(resp$EndPreferance, regex = "3") )))
+
+preferat4= length((subset(x=resp$EndPreferance, stri_detect(resp$EndPreferance, regex = "4") )))
+
+
+preferat5= length((subset(x=resp$EndPreferance,stri_detect(resp$EndPreferance, regex = "5") )))
+preferat6= length((subset(x=resp$EndPreferance,stri_detect(resp$EndPreferance, regex = "6") )))
+
+barplot(c(preferat6, preferat5,preferat4,preferat3,preferat1), 
+        names.arg = c("6 pm","5 pm", "4 pm", "3 pm", "1 pm"), horiz = T, xlim =c(0,120))
 
 
 #BAR CHAR:EXPECTED ABSENCE IN MALE AND FEMALE ###########################################
 
 #BAR CHART: PLOTTING LEVEL OF CONECTRATION AT 8 AM VERSUS SLEEP HOURS###################
+lev = c("100%","75%","50%","25%" ,"0%"  )
+library("RColorBrewer")
+
 
 sixOrMore = subset(x=resp, resp$Sleep >=6 )
-lessThanSix= subset(x=resp, resp$Sleep <6 )
-sixOrMoreLevel = table(sixOrMore$Concentration8to10)
-lessThanSixLevel = table(lessThanSix$Concentration8to10)
+sixOrMoreLevel = (sixOrMore$Concentration8to10)
+sixOrMoreLevel = table (factor (sixOrMoreLevel, levels = lev))
 sixOrMoreLevel
+
+lessThanSix= subset(x=resp, resp$Sleep <6 )
+lessThanSixLevel = (lessThanSix$Concentration8to10)
+lessThanSixLevel = table (factor (lessThanSixLevel, levels = lev))
 lessThanSixLevel
+
+
+x= matrix (c (sixOrMoreLevel,lessThanSixLevel), byrow = F, nrow =5)
+
+
+barplot( x, beside =  T,  col = brewer.pal(n = 5, name = "Dark2"), 
+         names.arg = c(" >= 6 hours", " < 6 hours"), 
+                       ylim= c(0,45)
+                       )
+         
+?legend
+legend("top",fill= brewer.pal(n = 5, name = "Dark2"), 
+       lev, box.lty = 3, cex = 0.8, horiz = T)
+
 barplot(lessThanSixLevel, main = "sleep hours < 6 and Concentration levels at 8am class")
 barplot(sixOrMoreLevel, main = "sleep hours > 6,  Concentration levels at 8am class")
