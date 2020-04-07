@@ -5,6 +5,12 @@ resp = read.csv("Assessment.csv", header = T, sep = ",",
 print(resp)
 class(resp)
 
+COL3 = brewer.pal(n=3, name = "Set3")
+COL4 = brewer.pal(n=4, name = "Set3")
+COL5 = brewer.pal(n=5, name = "Set3")
+COL6 = brewer.pal(n=6, name = "Set3")
+COL7 = brewer.pal(n=7, name = "Set3")
+
 # max: This method will return the maximum value within the column
 # min: This method will return the minimum value within the column
 # subset(data, condition): This method will return the subset of data, 
@@ -31,11 +37,18 @@ library("RColorBrewer")
 
 piepercent<- round(100*x/sum(x), 1)
 
+library( plotly)
 # Plot the chart.
-pie(x, labels = piepercent, main = "Gender of respondents",col = brewer.pal(n=3, name = "Dark2"))
-legend("topright", c("Female students" , "Male students"), cex = 0.8,
-       fill = brewer.pal(n=3, name = "Dark2"))
+png ("Gender.png")
 
+pie(x, labels = piepercent, main = "Gender of respondents",
+    col = COL3, radius =  0.9)
+legend("topright", c("Female students" , "Male students"), cex = 0.8,
+       fill = COL3 )
+d <- data.frame(resp$Gender)
+
+
+dev.off()
 
 # Year PIE CHART ^^^############################################################
 library("RColorBrewer")
@@ -45,10 +58,11 @@ col
 piepercent<- round(100*x/sum(x), 1)
 
 # Plot the chart.
-pie(x, labels = piepercent, main = "Year of respondents",col=brewer.pal(n = 5, name = "Set2"))
+pie(x, labels = piepercent, main = "Year of respondents",
+    col=COL5)
 legend("topright", c("1st Year", "2nd Year", "3rd Year", "4th Year" , "Post Graduate"),
        cex = 0.7,
-       fill = brewer.pal(n = 5, name = "Set2"))
+       fill = COL5)
 
 ## STEAM AND LEAF : CGPA , credits#############################################################
 
@@ -60,8 +74,8 @@ stem(resp$Credits)
 ?hist
 
 library("RColorBrewer")
-hist(resp$Credits, main = "Number of Credits",
-     col = brewer.pal(n = 6, name = "YlOrRd"),breaks = 10,
+hist(resp$Credits, main = "Number of credits taken by respondents",
+     col = COL6,breaks = 10,
      xlab = "Number of Credits")
 
 
@@ -120,10 +134,11 @@ barplot(timeToClass, main ="Time spent to get to classes (minutes)",
         xlab = "Duration", ylab ="Frequency", ylim = c(0,60),
         col = c ("#0652DD"), border = "#0652DD" )
 
-#BAR CHAR: PLOTTING SLEEP ###########################################
-sleepHours = table (resp$Sleep)
-sleepHours
-barplot(sleepHours)
+#HISTOGRAM: PLOTTING SLEEP ###########################################
+sleepHours = (resp$Sleep)
+
+hist(sleepHours, breaks = 5, col = COL7, 
+     main = "Hours of sleep of respondents", xlab =  "Hours")
 
 
 #BAR CHART: HOW OFTEN DO U SKIP CLASSES ##################################
@@ -192,15 +207,15 @@ barplot(allConcs, main = "Concentration Levels", beside = T,
 legend("topright",fill= concColors, density=100, concLegend, box.lty = 3, cex = 0.8)
 
 
-#BOX PLOT: Year vs satisfaction level ###############################
+#BOX PLOT: CGPA###############################
 
-boxplot(resp$Skip8to10 ~ resp$Transport, data = resp,
-        xlab = "Year", ylab =  "Satisfaction Level")
+boxplot(resp$CGPA , data = resp, ylab =  "CGPA")
 
 #BAR CHAR: SATISFACTION WITH SCHEDUELE ###########################################
 satisfaction= table (resp$Satisfaction)
 satisfaction
-barplot(satisfaction)
+barplot(satisfaction, col= COL6, main = "Satisfaction level with classes scheduele",
+        names.arg = c("0 = Very unsatisfied", 1, 2 ,3 ,4 , "5 = Very satisfied"))
 
 #BAR CHART: HOURS OFSLEEP ####################################################
 hoursOfSleep = table(resp$Sleep)
@@ -246,6 +261,7 @@ barplot(c(preferat6, preferat5,preferat4,preferat3,preferat1),
 #BAR CHAR:EXPECTED ABSENCE IN MALE AND FEMALE ###########################################
 
 #BAR CHART: PLOTTING LEVEL OF CONECTRATION AT 8 AM VERSUS SLEEP HOURS###################
+
 lev = c("100%","75%","50%","25%" ,"0%"  )
 library("RColorBrewer")
 
@@ -264,14 +280,19 @@ lessThanSixLevel
 x= matrix (c (sixOrMoreLevel,lessThanSixLevel), byrow = F, nrow =5)
 
 
-barplot( x, beside =  T,  col = brewer.pal(n = 5, name = "Dark2"), 
+barplot( x, beside =  T, main = "Hours of sleep vs Concentration level at 8 am class",
+         col = brewer.pal(n = 5, name = "Dark2"),
+         ylab = "Frequency",
          names.arg = c(" >= 6 hours", " < 6 hours"), 
                        ylim= c(0,45)
                        )
          
 ?legend
 legend("top",fill= brewer.pal(n = 5, name = "Dark2"), 
-       lev, box.lty = 3, cex = 0.8, horiz = T)
+       lev, box.lty = 3, cex = 0.7, horiz = T)
 
+
+
+# do not use these: 
 barplot(lessThanSixLevel, main = "sleep hours < 6 and Concentration levels at 8am class")
 barplot(sixOrMoreLevel, main = "sleep hours > 6,  Concentration levels at 8am class")
